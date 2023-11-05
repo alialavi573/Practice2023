@@ -41,7 +41,14 @@ header {
     left: 0;
     top: 0;
     right: 0;
+
 }
+
+header:root {
+    scroll-behavior: smooth;
+}
+
+
 
 header>.container {
     display: flex;
@@ -137,9 +144,12 @@ header nav>ul>li>ul>li>a {
 }
 
 .main-1 h6 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     color: #777777;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
 }
 
 .main-2 img {
@@ -150,10 +160,6 @@ header nav>ul>li>ul>li>a {
 .main-2 {
     align-self: flex-end;
 }
-
-/* end section 2 */
-
-
 
 
 
@@ -207,6 +213,130 @@ header nav>ul>li>ul>li>a {
     margin-top: -5px;
     margin-bottom: 26px;
 }
+
+.item2 h6 {
+    font-weight: 400;
+    font-size: 15px;
+
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+
+
+
+/* section 4 */
+
+
+
+
+
+.mainsection-3 {
+    padding-top: 130px;
+}
+
+.contaner-3 {
+    width: 100%;
+    height: 887px;
+    background-color: #ffffff;
+}
+
+.title p {
+    width: 610px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    line-height: 30px;
+    color: #777777;
+}
+
+.section-items-1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.items img {
+    width: 60px;
+    height: 60px;
+    margin-left: 125px;
+}
+
+.section5-items p {
+    width: 326px;
+    height: 100px;
+    text-align: center;
+    line-height: 26px;
+    color: #777777;
+}
+
+.section5-items h4 {
+    text-align: center;
+}
+
+.section5-items {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 1310px;
+    height: 534px;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.item2 h6 {
+    font-size: 15px;
+    color: #777777;
+}
+
+.items h4:hover {
+    color: #8490ff;
+    cursor: pointer;
+}
+
+
+
+/* section 5 */
+
+.contaner-4 {
+    width: 100%;
+    height: 321px;
+    display: flex;
+    align-items: center;
+    background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.section6-items {
+    display: flex;
+    margin: 0 auto;
+}
+
+.section6-items h1 {
+    margin-left: 140px;
+    margin-right: 140px;
+    color: #ffffff;
+}
+
+.section6-items p {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -307,13 +437,16 @@ header nav>ul>li>ul>li>a {
     }
 
     .main-1 h1 {
-        font-size: 20px;
+        font-size: 30px;
+        text-transform: uppercase;
     }
 
     .main-1 p {
         height: 50px;
         width: 425px;
         font-size: 15px;
+        color: #777777;
+        font-weight: 300;
     }
 
     .main-1 a {
@@ -322,13 +455,29 @@ header nav>ul>li>ul>li>a {
     }
 
     .contaner {
-        width: 445px;
+        width: 480px;
         height: 800px;
         display: flex;
         justify-content: flex-start;
-        
+
     }
-.main-1 a,.main-1 h6,.main-1 p,.main-1 h1{margin-left: 15px;}
+
+
+    .main-1 h6 {
+        font-size: 17px;
+    }
+
+    .main-1 a,
+    .main-1 h6,
+    .main-1 p,
+    .main-1 h1 {
+        margin-left: 15px;
+    }
+
+    .item1 img {
+        text-align: center;
+        margin-left: 70px;
+    }
 
     /* section 3 */
 
@@ -343,10 +492,63 @@ header nav>ul>li>ul>li>a {
     }
 
     .item2 a {
-        margin-top: 1520px;
+        margin-top: 1539px;
         margin-left: -2px;
         background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     }
+
+    /* section 4 */
+
+    .mainsection-3 {
+        padding-top: 527px;
+    }
+
+    .section5-items {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        margin-left: 135px;
+    }
+
+    .title p {
+        width: 381px;
+        height: 145px;
+    }
+
+    .title h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .title {
+        margin-left: 65px;
+    }
+
+    /* section 5 */
+
+
+    .contaner-4 {
+        background-color: #000000;
+        width: 480px;
+        height: 500px;
+        margin-top: 995px;
+    }
+
+    .section6-items {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
 
 
 }
